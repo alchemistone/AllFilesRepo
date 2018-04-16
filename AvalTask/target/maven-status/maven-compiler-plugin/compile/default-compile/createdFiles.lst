@@ -1,0 +1,14 @@
+ua\aval\task\model\FuncsBean.class
+ua\aval\task\dao\Dao.class
+ua\aval\task\model\ParamsBean.class
+ua\aval\task\entities\Function.class
+ua\aval\task\model\GroupsBean.class
+ua\aval\task\dao\FuncsDao.class
+ua\aval\task\entities\Parameter.class
+ua\aval\task\dao\GroupsDao.class
+ua\aval\task\views\ValidationView.class
+ua\aval\task\entities\Group.class
+ua\aval\task\views\ParamsView.class
+ua\aval\task\dao\ParamsDao.class
+ua\aval\task\views\GroupsView.class
+ua\aval\task\views\FuncsView.class

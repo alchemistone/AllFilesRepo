@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<h:head>
+
+	</h:head>
+
+	<h:body>
+		<h:form id="MainForm">
+		
+			<p:tabView id="MainLayout" style="min-width:500px; height:100%; font-size:small;">	
+				<p:tab id="ValidationTab" title="Валідація">
+					<p:layout style="min-width:500px; min-height:600px;">
+						<p:layoutUnit id="GroupsUnit" position="west" resizable="true" style="min-width:30%;">
+						
+							<p:dataTable id="GroupsTable" var="group" value="#{dtValidationView.groups}" resizableColumns="true" 
+								selectionMode="single" rowKey="#{group.id}" tableStyle="table-layout:auto; font-size:small;" >
+    							
+    							<p:ajax event="rowSelect" listener="#{dtValidationView.onGroupSelect}" 
+    								update="MainForm:MainLayout:FuncsTable, MainForm:MainLayout:ParamsTable" />
+    							<p:ajax event="rowUnselect" listener="#{dtValidationView.onGroupUnselect}" 
+    								update="MainForm:MainLayout:FuncsTable, MainForm:MainLayout:ParamsTable" />
+        						
+        						<f:facet id="GroupsHeader" name="header" >
+        							<div align="left">
+        								<h:outputText value="Групи функцій" />
+        							</div>
+    							</f:facet>
+    							
+								<p:column headerText="ID">
+									<h:outputText value="#{group.id}" />
+								</p:column>
+								
+								<p:column headerText="Ім'я">
+									<h:outputText value="#{group.name}" />
+								</p:column>
+								
+								<p:column headerText="Опис">
+									<h:outputText value="#{group.descr}" />
+								</p:column>
+							</p:dataTable>
+							
+						</p:layoutUnit>
+						<p:layoutUnit id="FuncsParsUnit" position="center" resizable="true" style="min-width:30%;">
+						
+							<p:dataTable id="FuncsTable" var="func" value="#{dtValidationView.funcs}" resizableColumns="true"
+								scrollable="true" selectionMode="single" rowKey="#{func.id}" scrollHeight="240" 
+								tableStyle="table-layout:auto; font-size:small; min-height=242px;" >
+								
+								<p:ajax event="rowSelect" listener="#{dtValidationView.onFuncSelect}" update="MainForm:MainLayout:ParamsTable" />
+								<p:ajax event="rowUnselect" listener="#{dtValidationView.onFuncUnselect}" update="MainForm:MainLayout:ParamsTable" />
+								
+								<f:facet id="FuncsHeader" name="header">
+        							<div align="left">
+        								<h:outputText value="Функції" />
+        							</div>
+    							</f:facet>
+    							
+								<p:column headerText="ID">
+									<h:outputText value="#{func.id}" />
+								</p:column>
+								
+								<p:column headerText="Ім'я">
+									<h:outputText value="#{func.name}" />
+								</p:column>
+								
+								<p:column headerText="Ім'я групи">
+									<h:outputText value="#{func.groupName}" />
+								</p:column>
+								
+								<p:column headerText="Опис">
+									<h:outputText value="#{func.descr}" />
+								</p:column>
+							</p:dataTable>
+							
+							<p:dataTable id="ParamsTable" var="par" value="#{dtValidationView.params}" resizableColumns="true"
+								scrollable="true" scrollHeight="240" tableStyle="table-layout:auto; font-size:small;  min-height=242px;" >
+								
+								<f:facet id="ParamsHeader" name="header">
+       								<div align="left">
+        								<h:outputText value="Параметри" />
+        							</div>
+   								</f:facet>
+								
+								<p:column headerText="ID">
+									<h:outputText value="#{par.id}" />
+								</p:column>
+								
+								<p:column headerText="Ім'я">
+									<h:outputText value="#{par.name}" />
+								</p:column>
+								
+								<p:column headerText="Ім'я функції">
+									<h:outputText value="#{par.funcName}" />
+								</p:column>
+								
+								<p:column headerText="Опис">
+									<h:outputText value="#{par.descr}" />
+								</p:column>
+							</p:dataTable>
+															
+						</p:layoutUnit>
+					</p:layout>
+				</p:tab>
+				
+				<p:tab id="GroupsListTab" title="Список груп">
+					<p:dataTable id="GroupsListTable" var="group" value="#{dtGroupsView.groups}" resizableColumns="true">
+						<p:column headerText="ID">
+							<h:outputText value="#{group.id}" />
+						</p:column>
+						
+						<p:column headerText="Ім'я">
+							<h:outputText value="#{group.name}" />
+						</p:column>
+						
+						<p:column headerText="Опис">
+							<h:outputText value="#{group.descr}" />
+						</p:column>
+					</p:dataTable>
+				</p:tab>
+				
+				<p:tab id="FuncsListTab" title="Список фнкцій">
+					<p:dataTable id="FuncsListTable" var="func" value="#{dtFuncsView.funcs}" resizableColumns="true">
+						<p:column headerText="ID">
+							<h:outputText value="#{func.id}" />
+						</p:column>
+						
+						<p:column headerText="Ім'я">
+							<h:outputText value="#{func.name}" />
+						</p:column>
+						
+						<p:column headerText="Ім'я групи">
+							<h:outputText value="#{func.groupName}" />
+						</p:column>
+						
+						<p:column headerText="Опис">
+							<h:outputText value="#{func.descr}" />
+						</p:column>
+					</p:dataTable>
+				</p:tab>
+				
+				<p:tab id="ParamsListTab" title="Список параметрів">
+					<p:dataTable id="ParamsListTable" var="par" value="#{dtParamsView.params}" resizableColumns="true">
+						<p:column headerText="ID">
+							<h:outputText value="#{par.id}" />
+						</p:column>
+						
+						<p:column headerText="Ім'я">
+							<h:outputText value="#{par.name}" />
+						</p:column>
+						
+						<p:column headerText="Ім'я функції">
+							<h:outputText value="#{par.funcName}" />
+						</p:column>
+						
+						<p:column headerText="Опис">
+							<h:outputText value="#{par.descr}" />
+						</p:column>
+					</p:dataTable>
+				</p:tab>
+			</p:tabView>
+		</h:form>
+	</h:body>
+	
+</html>

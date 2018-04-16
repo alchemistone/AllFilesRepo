@@ -1,0 +1,22 @@
+
+-  Файли всіх використаних бібліотек можна знайти у білді
+   проекту (AvalTask\target\AvalTask.war\WEB-INF\lib\);
+-  Скрипти написані з використанням PL/SQL і генерують випадковий
+   набір даних у кількості обраній випадково із зазначеного діапазону;
+-  Перед заповненням (вже існуючих) таблиць, скрипти видаляють із них дані і самостійно комітять внесені зміни;
+
+
+* DB:          Oracle Database 12c Standard Edition Release 12.2.0.1.0
+* JDBC Driver: ojdbc8.jar (12.2.0.1)
+               Розташований у папці проекту (AvalTask\WebContent\WEB-INF\lib),
+               оскільки його проблематично завантажити з репозиторію Oracle.
+				
+* IDE:         Eclipse Jee Oxygen.3 Release (4.7.3) 
+* JDK:         1.8.0_161
+* Бібліотеки:  primefaces-6.2.jar
+               jsf-impl-2.2.16.jar
+               jsf-api-2.2.16.jar
+
+* Контейнер:   apache-tomcat-9.0.7-windows-x64
+* URL:         http://localhost:8080/AvalTask/
+* Browser:     Firefox 59.0.2

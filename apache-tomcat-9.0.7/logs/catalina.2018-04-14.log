@@ -1,0 +1,128 @@
+14-Apr-2018 02:51:46.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+14-Apr-2018 02:51:46.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+14-Apr-2018 02:51:46.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+14-Apr-2018 02:51:46.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+14-Apr-2018 02:51:46.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+14-Apr-2018 02:51:46.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Apr-2018 02:51:46.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+14-Apr-2018 02:51:47.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+14-Apr-2018 02:51:47.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Apr-2018 02:51:47.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User_1\Desktop\apache-tomcat-9.0.7
+14-Apr-2018 02:51:47.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User_1\Desktop\apache-tomcat-9.0.7
+14-Apr-2018 02:51:47.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User_1\Desktop\apache-tomcat-9.0.7\conf\logging.properties
+14-Apr-2018 02:51:47.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2018 02:51:47.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2018 02:51:47.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2018 02:51:47.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Apr-2018 02:51:47.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User_1\Desktop\apache-tomcat-9.0.7
+14-Apr-2018 02:51:47.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User_1\Desktop\apache-tomcat-9.0.7
+14-Apr-2018 02:51:47.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User_1\Desktop\apache-tomcat-9.0.7\temp
+14-Apr-2018 02:51:47.011 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+14-Apr-2018 02:51:47.012 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14-Apr-2018 02:51:47.013 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Apr-2018 02:51:47.931 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+14-Apr-2018 02:51:48.100 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 02:51:48.170 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Apr-2018 02:51:48.181 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 02:51:48.185 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Apr-2018 02:51:48.186 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1760 ms
+14-Apr-2018 02:51:48.235 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Apr-2018 02:51:48.236 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+14-Apr-2018 02:51:48.270 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\AvalTask.war]
+14-Apr-2018 02:51:51.056 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2018 02:51:51.212 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.16 ( 20180118-0013 901a18e611bead474715a643c8f634cfa1312414) for context '/AvalTask'
+14-Apr-2018 02:51:51.446 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+14-Apr-2018 02:51:52.731 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.2
+14-Apr-2018 02:51:52.764 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\AvalTask.war] has finished in [4,493] ms
+14-Apr-2018 02:51:52.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\docs]
+14-Apr-2018 02:51:52.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\docs] has finished in [55] ms
+14-Apr-2018 02:51:52.828 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\examples]
+14-Apr-2018 02:51:53.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\examples] has finished in [540] ms
+14-Apr-2018 02:51:53.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\host-manager]
+14-Apr-2018 02:51:53.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\host-manager] has finished in [79] ms
+14-Apr-2018 02:51:53.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\manager]
+14-Apr-2018 02:51:53.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\manager] has finished in [37] ms
+14-Apr-2018 02:51:53.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\ROOT]
+14-Apr-2018 02:51:53.526 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\apache-tomcat-9.0.7\webapps\ROOT] has finished in [39] ms
+14-Apr-2018 02:51:53.531 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 02:51:53.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 02:51:53.550 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5362 ms
+14-Apr-2018 03:24:35.309 INFO [http-nio-8080-exec-2] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+14-Apr-2018 03:27:21.743 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Apr-2018 03:27:21.745 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:27:21.808 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 03:27:21.826 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Apr-2018 03:27:21.933 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AvalTask] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Apr-2018 03:27:21.935 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AvalTask] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+14-Apr-2018 03:27:21.944 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:27:21.950 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 03:27:21.955 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:27:21.958 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 03:30:43.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+14-Apr-2018 03:30:43.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+14-Apr-2018 03:30:43.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+14-Apr-2018 03:30:43.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+14-Apr-2018 03:30:43.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+14-Apr-2018 03:30:43.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Apr-2018 03:30:43.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+14-Apr-2018 03:30:43.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+14-Apr-2018 03:30:43.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Apr-2018 03:30:43.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7
+14-Apr-2018 03:30:43.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7
+14-Apr-2018 03:30:43.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\conf\logging.properties
+14-Apr-2018 03:30:43.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2018 03:30:43.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2018 03:30:43.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2018 03:30:43.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Apr-2018 03:30:43.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7
+14-Apr-2018 03:30:43.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7
+14-Apr-2018 03:30:43.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\temp
+14-Apr-2018 03:30:43.620 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+14-Apr-2018 03:30:43.621 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14-Apr-2018 03:30:43.621 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Apr-2018 03:30:44.503 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+14-Apr-2018 03:30:44.685 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:30:44.743 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Apr-2018 03:30:44.751 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 03:30:44.753 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Apr-2018 03:30:44.754 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1724 ms
+14-Apr-2018 03:30:44.791 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Apr-2018 03:30:44.792 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+14-Apr-2018 03:30:44.822 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\AvalTask.war]
+14-Apr-2018 03:30:47.482 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2018 03:30:47.657 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.16 ( 20180118-0013 901a18e611bead474715a643c8f634cfa1312414) for context '/AvalTask'
+14-Apr-2018 03:30:47.982 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+14-Apr-2018 03:30:49.347 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 6.2
+14-Apr-2018 03:30:49.440 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\AvalTask.war] has finished in [4,617] ms
+14-Apr-2018 03:30:49.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\docs]
+14-Apr-2018 03:30:49.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\docs] has finished in [52] ms
+14-Apr-2018 03:30:49.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\examples]
+14-Apr-2018 03:30:50.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\examples] has finished in [675] ms
+14-Apr-2018 03:30:50.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\host-manager]
+14-Apr-2018 03:30:50.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\host-manager] has finished in [74] ms
+14-Apr-2018 03:30:50.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\manager]
+14-Apr-2018 03:30:50.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\manager] has finished in [59] ms
+14-Apr-2018 03:30:50.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\ROOT]
+14-Apr-2018 03:30:50.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User_1\Desktop\Нова папка\apache-tomcat-9.0.7\webapps\ROOT] has finished in [51] ms
+14-Apr-2018 03:30:50.372 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:30:50.391 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 03:30:50.397 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5642 ms
+14-Apr-2018 03:30:59.526 INFO [http-nio-8080-exec-1] com.sun.faces.application.view.ViewScopeManager.<init> CDI @ViewScoped bean functionality unavailable
+14-Apr-2018 03:33:03.973 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Apr-2018 03:33:03.975 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:33:04.048 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 03:33:04.058 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Apr-2018 03:33:04.140 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AvalTask] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Apr-2018 03:33:04.141 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AvalTask] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+14-Apr-2018 03:33:04.150 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:33:04.155 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Apr-2018 03:33:04.159 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Apr-2018 03:33:04.163 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
